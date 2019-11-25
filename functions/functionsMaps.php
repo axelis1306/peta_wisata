@@ -47,7 +47,7 @@ public function cariData($table , $kolom1, $kolom2 ,$value1, $value2 ){
  }
 
  public function tampilDataPencarianLokasi($tabel , $kolom, $value){
-  $cari = $this->db->prepare("SELECT * FROM artikel WHERE id_artikel LIKE '%$value%'");
+  $cari = $this->db->prepare("SELECT * FROM artikel WHERE artikel_id LIKE '%$value%'");
   $cari->execute();
   return $cari;
  }
