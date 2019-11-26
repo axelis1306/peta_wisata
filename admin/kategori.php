@@ -158,4 +158,4 @@
 
 
 
-<script type="text/javascript" src="./js/map.js"></script>
+<script type="text/javascript" src="./js/kategori.js"></script>
